@@ -1,0 +1,16 @@
+#assigning elements to lists
+list1=[1,9.6,'jay',3,'mike']
+list1.append('john')
+print(list1)
+list2=[5,9.3,'chethan',2]
+list2.append(4.6)
+print(list2)
+#accessing elements from tuples
+tuple=("c","cpp","java","python","ai","django")
+print(tuple[5])
+mytuple=(8,27,64,125,216,343,521,729,1000,1331,1728,2197,2744,3375)
+print(tuple[13])
+#deleting elements from dictionary
+dict={"c":"easy","cpp":"moderate","java":"tough","python":"cool"}
+del dict["java"]
+print(dict)
